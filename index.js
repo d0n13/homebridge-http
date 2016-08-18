@@ -229,9 +229,9 @@ var pollingtoevent = require('polling-to-event');
 		var informationService = new Service.AccessoryInformation();
 	
 		informationService
-		.setCharacteristic(Characteristic.Manufacturer, "HTTP Manufacturer")
-		.setCharacteristic(Characteristic.Model, "HTTP Model")
-		.setCharacteristic(Characteristic.SerialNumber, "HTTP Serial Number");
+		.setCharacteristic(Characteristic.Manufacturer, "One Touch Mobile Engineering Ltd")
+		.setCharacteristic(Characteristic.Model, "Cantelever Gate v1.0")
+		.setCharacteristic(Characteristic.SerialNumber, "000000001");
 	
 		switch (this.service) {
 		case "Switch": 
